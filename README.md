@@ -1,34 +1,61 @@
-# Random Quote Generator
+# 🌟 Random Quote Generator
 
-This project is a simple Random Quote Generator built using JavaScript. It displays a random inspirational quote along with its author's name when a button is clicked. You can view the live version of this project [Here](https://eman289.github.io/Random-Quotes-App/).
+This project is a **simple and stylish Random Quote Generator** built using **HTML, CSS, and JavaScript**. It displays a random inspirational quote along with its author's name when a button is clicked.
 
-## Table of Contents
+👉 **[Live Demo](https://gupta-skdisha.github.io/QuotesMaster/)**
+
+> ⚠️ Note: This project is inspired by [eman289's Random Quote App](https://eman289.github.io/Random-Quotes-App/). I’ve made my own enhancements including visual theme updates, dark mode, new quotes, and structural changes.
+
+---
+
+## 📚 Table of Contents
 
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Code Explanation](#code-explanation)
-
-## Introduction
-
-The Random Quote Generator is designed to provide users with a source of motivation and inspiration by displaying random quotes from various authors. With each button click, a new quote and its author are displayed on the page.
-
-## Usage
-
-To use the Random Quote Generator:
-
-1. Visit the [Live Demo](https://eman289.github.io/Random-Quotes-App/).
-2. Click the "New Quote" button to display a random quote along with its author's name.
-3. Enjoy the motivational and thought-provoking quotes!
-
-## Code Explanation
-
-The JavaScript code provided in this repository is responsible for generating and displaying random quotes on the web page. Here's a brief explanation of the key components:
-
-- The `quote` array contains objects, each representing a quote with its associated text and author.
-- The `newQuote()` function generates a random index to select a quote from the `quote` array and displays it on the web page.
-- A check is implemented to prevent showing the same quote consecutively using the `previousIndex` variable.
-- The `getElementById()` function is used to update the HTML elements with the generated quote text and author.
+- [Credits](#credits)
 
 ---
 
-Thank you for checking out the Random Quote Generator project! If you have any questions, suggestions, or improvements, please feel free to reach out.
+## 📝 Introduction
+
+The Random Quote Generator provides users with motivational and thought-provoking quotes at the click of a button. With every click, it randomly selects a quote from a curated list and displays it on the page with its author.
+
+---
+
+## 🚀 Usage
+
+To use the Random Quote Generator:
+
+1. Open the [Live Demo](https://gupta-skdisha.github.io/QuotesMaster/).
+2. Click the **"New Quote"** button.
+3. A new quote and its author will appear instantly.
+4. Switch to **Dark Mode** using the 🌙 button if needed!
+
+---
+
+## 💡 Code Explanation
+
+The core logic is written in vanilla JavaScript. Here's a quick overview:
+
+- `quotes[]` – An array containing quote objects with `text` and `author` properties.
+- `newQuote()` – Picks a random quote, avoiding repeating the last one.
+- `previousIndex` – Remembers the last quote to prevent duplication.
+- DOM manipulation using `getElementById()` updates the quote and author.
+
+---
+
+## 🙏 Credits
+
+- **Original Idea & Starter Code**: [eman289](https://eman289.github.io/Random-Quotes-App/)
+- **Enhancements by**: Disha Gupta  
+  ✔ Added dark mode  
+  ✔ Re-themed with aesthetic purple styling  
+  ✔ Updated quote collection  
+  ✔ Responsive layout improvements
+
+---
+
+Thank you for visiting the **Random Quote Generator**!  
+If you liked the project, feel free to ⭐ star it or suggest improvements via issues or pull requests.
+
