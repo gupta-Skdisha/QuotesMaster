@@ -4,7 +4,7 @@ This project is a **simple and stylish Random Quote Generator** built using **HT
 
 👉 **[Live Demo](https://gupta-skdisha.github.io/QuotesMaster/)**
 
-> ⚠️ Note: This project is inspired by [eman289's Random Quote App](eman289.). I’ve made my own enhancements including visual theme updates, dark mode, new quotes, and structural changes.
+> ⚠️ Note: This project is inspired by [eman289's Random Quote App](eman289). I’ve made my own enhancements including visual theme updates, dark mode, new quotes, and structural changes.
 
 ---
 
